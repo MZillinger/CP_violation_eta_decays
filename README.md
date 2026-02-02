@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Research-orange)
 
 ## 📌 Project Overview
-This repository implements a **statistical modeling framework** for analyzing an improved version of the large Nc Chiral Perturbation Theory framework for the decay $\eta' \to \eta \pi \pi$. This analysis focuses on reconstructing the Dalitz plot density as well as the branching fraction from the PDG. Moreover, this analysis is related to the $CP$-violating [project](https://arxiv.org/abs/2210.14925) of $eta^{(\prime)}$ decays.
+This repository implements a **statistical modeling framework** for analyzing an improved version of the large Nc Chiral Perturbation Theory framework for the decay $\eta' \to \eta \pi \pi$. This analysis focuses on reconstructing the Dalitz plot density as well as the branching fraction from the PDG. Moreover, this analysis is related to the $CP$-violating [project](https://arxiv.org/abs/2210.14925) of $\eta^{(\prime)}$ decays.
 
 The core analysis engine performs a **Maximum Likelihood Estimation (MLE)** to fit theoretical amplitude parameters to experimental data (based on [BESIII 2018](https://arxiv.org/abs/1709.04627) 2018 datasets), incorporating numerical integration of Omnès functions and rigorous covariance estimation.
 
