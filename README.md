@@ -25,7 +25,6 @@ The core analysis engine performs a **Maximum Likelihood Estimation (MLE)** to f
 ├── data/                       # Experimental data and theoretical inputs
 │   ├── Omnesfunctions-d00...   # Dispersive phase shift inputs
 │   └── BESIII-2018...          # Dalitz plot event data
-├── etaprime_model.py           # Core Model Class (Physics Logic)
-├── analysis.ipynb              # Jupyter Notebook for Visualization & Plots
-├── requirements.txt            # Python dependencies
+├── etap_eta_pipi_model.py      # Core Model Class (Physics Logic)
+├── fitting_etap_eta_pipi.ipynb # Jupyter Notebook for Visualization & Plots
 └── README.md                   # Project Documentation
