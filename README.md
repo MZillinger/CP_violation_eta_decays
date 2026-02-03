@@ -10,7 +10,7 @@ This repository implements a **statistical modeling framework** for analyzing an
 The core analysis engine performs a **Maximum Likelihood Estimation (MLE)** to fit theoretical amplitude parameters to experimental data (based on [BESIII 2018](https://arxiv.org/abs/1709.04627) 2018 datasets), incorporating numerical integration of Omnès functions and rigorous covariance estimation.
 
 ## 🚀 Key Features
-* **Dispersive $\chi$PT Implementation:** Rigorous modeling of partial wave amplitudes with inclusion of unitarization methods.
+* **Implementation of unitarized amplitude:** Rigorous modeling of partial wave amplitudes with unitarization methods.
 * **Numerical Integration Pipeline:** Automated pre-computation of phase-space integrals using `scipy.integrate.dblquad` for computational efficiency.
 * **Statistical Fitting Engine:**
     * Simultaneous $\chi^2$ minimization of Dalitz plot bins and decay rate constraints.
