@@ -28,16 +28,17 @@ The core analysis engine performs a **Maximum Likelihood Estimation (MLE)** to f
 ├── etap_eta_pipi_model.py      # Core Model Class (Physics Logic)
 ├── fitting_etap_eta_pipi.ipynb # Jupyter Notebook for Visualization & Plots
 └── README.md                   # Project Documentation
+```
 
 ## 🏗️ Code Architecture
 
 This project separates the physical theory from the statistical analysis to ensure modularity:
 
-* **`etaprime_model.py` (The Physics Engine)**
+* **`etap_eta_pipi_model.py` (The Physics Engine)**
     * **Role:** Acts as the backend library.
     * **Responsibilities:** Implements the core mathematical framework, including the interpolation of Omnès functions, numerical integration of dispersion relations, and construction of partial wave amplitudes.
     * *Usage:* Can be imported as a module or run as a script for quick CLI validation.
 
-* **`analysis.ipynb` (The Analysis Dashboard)**
+* **`fitting_etap_eta_pipi.ipynb` (The Analysis Dashboard)**
     * **Role:** Acts as the interactive frontend.
     * **Responsibilities:** The statistical fitting procedure with manuell minimization of $\chi^{2}$ as well as the usage of the package [iminuit](https://pypi.org/project/iminuit/), calculation of correlation matrices, and generation of 2D residuals in a Dalitz plot format.
