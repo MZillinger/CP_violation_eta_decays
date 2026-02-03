@@ -36,8 +36,8 @@ This project separates the physical theory from the statistical analysis to ensu
 
 * **`etap_eta_pipi_model.py` (The Physics Engine)**
     * **Role:** Acts as the backend library.
-    * **Responsibilities:** Implements the core mathematical framework, including the interpolation of Omnès functions, numerical integration of dispersion relations, and construction of partial wave amplitudes.
-    * *Usage:* Can be imported as a module or run as a script for quick CLI validation.
+    * **Responsibilities:** Implements the core mathematical framework, including the interpolation of Omnès functions, construction of partial wave amplitudes and numerical integration of the unitarized amplitudes.
+    * *Usage:* Can be imported as a module or run as a script.
 
 * **`fitting_etap_eta_pipi.ipynb` (The Analysis Dashboard)**
     * **Role:** Acts as the interactive frontend.
