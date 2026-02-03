@@ -1,0 +1,21 @@
+# --- Python Internals (Never upload these) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook Checkpoints (Autosaves) ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Operating System Junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings (VS Code, PyCharm, etc.) ---
+.vscode/
+.idea/
+
+# --- Build & Distribution (If you package it later) ---
+build/
+dist/
+*.egg-info/
